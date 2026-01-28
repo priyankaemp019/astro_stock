@@ -101,7 +101,7 @@ import { use, useEffect, useState } from "react";
 import { UTCTimestamp } from "lightweight-charts";
 import { ChartTableData, fetchChartTableData } from "./components/chart_api";
 import AstroBottomIndicator from "./components/AstroIndicatorPanel";
-import { DatePickerComponent } from "./components/DatePicker/page";
+import { DatePickerComponent } from "./components/DatePicker/DatePicker";
 
 export default function Home() {
   const [interval, setInterval] = useState("1m");
